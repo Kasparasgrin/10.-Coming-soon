@@ -3,8 +3,6 @@
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left:20px;
-    padding-right: 20px:;
 
 }
     .hero-row {
@@ -75,16 +73,15 @@
             
         footer.container {
             text-align: center;
-            padding-top: 20px;
+            padding-top: 0px;
+            font-size: 18px;
         }    
         .socials {
             display: inline-block;
             width: 100%;
-            border-bottom: 2px solid #fff;
-            margin-bottom: 40px;
+            border-bottom: 1px solid #fff;
             padding-top: 10px;
             padding-bottom: 10px;
-        
         }
             .socials > .fa {
                 color: white;
@@ -105,8 +102,7 @@
             width: 600px;
             margin-left: calc((100% - 600px) / 2);
             margin-right: calc((100% - 600px) / 2);
-            color: #fffffa;
-
+            color: #ffffffaa;
         }
             .footer-logo > .logo {
                 margin-top: 30px;
@@ -114,26 +110,24 @@
             }
             .copyright {
                 display: inline-block;
-                width: 100%;
             }
                 .copyright > .texts {
                     display: inline-block;
-                    }
-                    .copyright > .texts.borders {
-                        margin-left: 10px;
-                        margin-right: 10px;
-                        padding-left: 10px;
-                        padding-right: 10px;
-                        border: 1px solid white;
-                        border-top: none;
-                        border-bottom: none;
-                    }
-
+                    float: left;
+                }
+                .copyright > .texts.borders {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    border: 1px solid white;
+                    border-top: none;
+                    border-bottom: none;
+                }
             .fotter-texts > p {
                 display: inline-block;
                 width: 100%;
             }
-            
             .footer-texts a {
                 color: white;
             }
@@ -184,6 +178,7 @@
     .copyright > .texts.border {
         width: 100%;
         border: none;
+        margin: 0;
     }
 }
 
